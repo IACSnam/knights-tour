@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<header>
+    <title>Knight's Tour</title>
+</header>
+<body>
+    <canvas id="game" width="400" height="400" style="border:1px solid black"></canvas>
+    <div>
+        <button class="boop" id="start">Start</button>
+        <button class="boop" id="previous">Previous</button>
+        <span>Move: 
+            <span id="move" style="border:1px solid black">N/A</span>
+            <span>/</span>
+            <span id="total" style="border:1px solid black">--</span>
+        </span> 
+        <button class="boop" id="next">Next</button>
+        <script src="https://tomhinkle.net/util/SimpleCanvasLibrary.js"></script>
+        <script src="heuristic.js"></script>
+        <script src="tour.js"></script>
+        <script src="main.js"></script>
+    </div>
+</body>
